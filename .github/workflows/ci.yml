@@ -9,7 +9,8 @@ on:
     branches:
       - '*develop*'
       - '*master*'
-
+  workflow_dispatch:
+  
 jobs:
   cross_build:
     name: Cross-platform build and test
